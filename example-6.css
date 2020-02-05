@@ -1,0 +1,32 @@
+.container-ex-6 {
+  display: flex;
+  width: 200px;
+  background: grey;
+  margin-top: 10px;
+}
+
+.container-ex-6 > div {
+  text-align: center;
+  vertical-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.container-ex-6 > .item-1 {
+  width: 75px;
+  height: 50px;
+  background: red;
+}
+
+.container-ex-6 > .item-2 {
+  width: 75px;
+  height: 50px;
+  background: green;
+}
+
+.container-ex-6 > .item-3 {
+  width: 75px;
+  flex-shrink: 50;
+  height: 50px;
+  background: blue;
+}

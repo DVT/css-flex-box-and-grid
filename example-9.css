@@ -1,0 +1,33 @@
+.container-ex-9 {
+  display: flex;
+  width: 150px;
+  height: 200px;
+  align-items: center;
+  background: grey;
+  margin-top: 10px;
+}
+
+.container-ex-9 > div {
+  text-align: center;
+  vertical-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.container-ex-9 > .item-1 {
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+.container-ex-9 > .item-2 {
+  width: 50px;
+  height: 50px;
+  background: green;
+}
+
+.container-ex-9 > .item-3 {
+  width: 50px;
+  height: 50px;
+  background: blue;
+}

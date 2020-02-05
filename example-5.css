@@ -1,0 +1,45 @@
+.container-ex-5 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  background: grey;
+  margin-top: 10px;
+}
+
+.container-ex-5 > div {
+  text-align: center;
+  vertical-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.container-ex-5 > .item-1 {
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+.container-ex-5 > .item-2 {
+  width: 50px;
+  height: 50px;
+  background: green;
+}
+
+.container-ex-5 > .item-3 {
+  width: 50px;
+  height: 50px;
+  background: blue;
+}
+
+.container-ex-5 > .item-4 {
+  width: 50px;
+  height: 50px;
+  background: brown;
+}
+
+.container-ex-5 > .item-5 {
+  width: 50px;
+  height: 50px;
+  background: purple;
+}
+
