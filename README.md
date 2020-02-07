@@ -1,4 +1,4 @@
-# css-flex-box-and-grid
+# Flexbox and CSS Grid
 Example usages of Flexbox and CSS grid properties
 
 
