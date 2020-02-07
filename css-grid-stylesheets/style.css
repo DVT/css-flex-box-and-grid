@@ -1,4 +1,33 @@
-/* TODO: Enable grid layout */
-.container {
+.legend-container {
+  margin-bottom: 5px;
+}
 
+.grey-icon {
+  display: block;
+  margin-bottom: 5px;
+  border-left: 10px gray solid;
+}
+
+.red-icon {
+  display: block;
+  margin-bottom: 5px;
+  border-left: 10px red solid;
+}
+
+.green-icon {
+  display: block;
+  margin-bottom: 5px;
+  border-left: 10px green solid;
+}
+
+.blue-icon {
+  display: block;
+  margin-bottom: 5px;
+  border-left: 10px blue solid;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
 }
