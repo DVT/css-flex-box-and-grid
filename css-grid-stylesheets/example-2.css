@@ -1,0 +1,17 @@
+.container-ex-2 {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+}
+
+@media screen and (min-width: 600px) {
+  .container-ex-2 {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+  }
+}

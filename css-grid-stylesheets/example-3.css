@@ -1,0 +1,8 @@
+.container-ex-3 {
+  height: 300px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+}
